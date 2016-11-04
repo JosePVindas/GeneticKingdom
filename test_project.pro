@@ -16,12 +16,18 @@ SOURCES += main.cpp\
         mainwindow.cpp \
     ogre.cpp \
     enemy.cpp \
-    mymouse.cpp
+    mymouse.cpp \
+    button.cpp \
+    tower.cpp \
+    gamestatecontroller.cpp
 
 HEADERS  += mainwindow.h \
     ogre.h \
     enemy.h \
-    mymouse.h
+    mymouse.h \
+    button.h \
+    tower.h \
+    gamestatecontroller.h
 
 FORMS    += mainwindow.ui
 
